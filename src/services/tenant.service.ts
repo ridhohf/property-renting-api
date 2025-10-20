@@ -1,5 +1,5 @@
 import { BookingStatus } from "@prisma/client";
-import { prisma } from "../config/databse";
+import { prisma } from "../config/database";
 import { AppError } from "../utils/app.error";
 import { EmailService } from "./email.service";
 

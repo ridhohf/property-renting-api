@@ -1,6 +1,6 @@
 import { UserRole } from "@prisma/client";
 import bcrypt from "bcrypt";
-import { prisma } from "../config/databse";
+import { prisma } from "../config/database";
 import { AppError } from "../utils/app.error";
 import { JwtUtil } from "../utils/jwt.util";
 import { EmailService } from "./email.service";

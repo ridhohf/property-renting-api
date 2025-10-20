@@ -1,6 +1,6 @@
 import { BookingStatus } from "@prisma/client";
 import cron from "node-cron";
-import { prisma } from "../config/databse";
+import { prisma } from "../config/database";
 import { EmailService } from "../services/email.service";
 import { LoggerService } from "../utils/logger";
 

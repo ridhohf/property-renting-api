@@ -1,4 +1,4 @@
-import { prisma } from "../config/databse";
+import { prisma } from "../config/database";
 
 export class PricingService {
   async calculatePrice(

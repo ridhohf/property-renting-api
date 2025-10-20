@@ -1,4 +1,4 @@
-import { prisma } from "../config/databse";
+import { prisma } from "../config/database";
 import { AppError } from "../utils/app.error";
 import { BookingStatus } from "@prisma/client";
 

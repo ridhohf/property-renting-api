@@ -1,6 +1,6 @@
 import { BookingStatus } from "@prisma/client";
 import cron from "node-cron";
-import { prisma } from "../config/databse";
+import { prisma } from "../config/database";
 import { LoggerService } from "../utils/logger";
 
 const logger = new LoggerService();

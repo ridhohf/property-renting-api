@@ -1,5 +1,5 @@
 import App from "./app";
-import { Database } from "./config/databse";
+import { Database } from "./config/database";
 import { LoggerService } from "./utils/logger";
 import "./jobs/booking-reminder.job";
 import "./jobs/cancel-unpaid.job";
