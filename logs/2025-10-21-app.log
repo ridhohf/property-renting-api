@@ -616,3 +616,69 @@
 [2025-10-21 16:13:23] INFO: Database connected successfully  
 [2025-10-21 16:13:37] INFO: SIGINT received, shutting down gracefully  
 [2025-10-21 16:13:37] INFO: Database disconnected  
+[2025-10-21 16:15:41] INFO: Database connected successfully  
+[2025-10-21 16:15:48] ERROR: Failed to send verification email  {
+  "errno": -4078,
+  "code": "ESOCKET",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 587,
+  "command": "CONN"
+}
+[2025-10-21 16:15:48] ERROR: POST /api/auth/register - Internal server error. Please try again later!  {
+  "name": "Error",
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:587\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)",
+  "path": "/api/auth/register",
+  "method": "POST",
+  "ip": "::1",
+  "statusCode": 500
+}
+[2025-10-21 16:16:57] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 16:16:57] INFO: Database disconnected  
+[2025-10-21 16:17:04] ERROR: Database connection failed  {
+  "clientVersion": "6.17.1",
+  "errorCode": "P1012",
+  "name": "PrismaClientInitializationError"
+}
+[2025-10-21 16:19:00] INFO: Database connected successfully  
+[2025-10-21 16:19:38] ERROR: Failed to send verification email  {
+  "errno": -4078,
+  "code": "ESOCKET",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 587,
+  "command": "CONN"
+}
+[2025-10-21 16:19:38] ERROR: POST /api/auth/register - Internal server error. Please try again later!  {
+  "name": "Error",
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:587\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)",
+  "path": "/api/auth/register",
+  "method": "POST",
+  "ip": "::1",
+  "statusCode": 500
+}
+[2025-10-21 16:24:51] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 16:24:51] INFO: Database disconnected  
+[2025-10-21 16:29:12] INFO: Database connected successfully  
+[2025-10-21 16:29:25] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 16:29:25] INFO: Database disconnected  
+[2025-10-21 16:29:30] INFO: Database connected successfully  
+[2025-10-21 16:29:35] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 16:29:35] INFO: Database disconnected  
+[2025-10-21 16:29:41] INFO: Database connected successfully  
+[2025-10-21 16:30:00] INFO: Running cancel unpaid bookings job  
+[2025-10-21 16:31:49] INFO: Database connected successfully  
+[2025-10-21 16:31:51] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 16:31:51] INFO: Database disconnected  
+[2025-10-21 16:31:57] INFO: Database connected successfully  
+[2025-10-21 16:32:48] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 16:32:48] INFO: Database disconnected  
+[2025-10-21 16:33:58] INFO: Database connected successfully  
+[2025-10-21 16:35:26] INFO: Database connected successfully  
+[2025-10-21 16:35:33] INFO: Database connected successfully  
+[2025-10-21 16:35:57] INFO: Database connected successfully  
+[2025-10-21 16:38:16] INFO: Verification email sent to krismahendra0909@gmail.com  
+[2025-10-21 16:43:56] INFO: Password reset email sent to krismahendra0909@gmail.com  
+[2025-10-21 16:45:00] INFO: Running cancel unpaid bookings job  
+[2025-10-21 16:45:02] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 16:45:02] INFO: Database disconnected  

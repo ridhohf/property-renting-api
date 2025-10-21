@@ -355,3 +355,35 @@
   "command": "API"
 }
 [2025-10-21 16:10:04] ERROR: Please check your SMTP credentials in .env.development  
+[2025-10-21 16:15:48] ERROR: Failed to send verification email  {
+  "errno": -4078,
+  "code": "ESOCKET",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 587,
+  "command": "CONN"
+}
+[2025-10-21 16:15:48] ERROR: POST /api/auth/register - Internal server error. Please try again later!  {
+  "name": "Error",
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:587\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)",
+  "path": "/api/auth/register",
+  "method": "POST",
+  "ip": "::1",
+  "statusCode": 500
+}
+[2025-10-21 16:19:38] ERROR: Failed to send verification email  {
+  "errno": -4078,
+  "code": "ESOCKET",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 587,
+  "command": "CONN"
+}
+[2025-10-21 16:19:38] ERROR: POST /api/auth/register - Internal server error. Please try again later!  {
+  "name": "Error",
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:587\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)",
+  "path": "/api/auth/register",
+  "method": "POST",
+  "ip": "::1",
+  "statusCode": 500
+}
