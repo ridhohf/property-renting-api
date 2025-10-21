@@ -1,11 +1,7 @@
-[2025-08-05 12:06:36] ERROR: POST /api/samples - Sample data is not found  {
-  "name": "AppError",
-  "stack": "AppError: Sample data is not found\n    at new AppError (D:\\Workspace\\minpro-finpro\\pwd-template-api\\src\\utils\\app.error.ts:14:11)\n    at SampleController.<anonymous> (D:\\Workspace\\minpro-finpro\\pwd-template-api\\src\\controllers\\sample.controller.ts:24:30)\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Workspace\\minpro-finpro\\pwd-template-api\\src\\controllers\\sample.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
-  "path": "/api/samples",
-  "method": "POST",
-  "ip": "::1",
-  "statusCode": 404
-}
+[2025-10-21 15:04:14] INFO: Database connected successfully  
+[2025-10-21 15:08:48] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 15:08:48] INFO: Database disconnected  
+[2025-10-21 15:08:54] INFO: Database connected successfully  
 [2025-10-21 15:10:14] ERROR: Failed to send verification email  {
   "errno": -4078,
   "code": "ESOCKET",
@@ -46,6 +42,13 @@
   "ip": "::1",
   "statusCode": 500
 }
+[2025-10-21 15:15:00] INFO: Running cancel unpaid bookings job  
+[2025-10-21 15:18:44] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 15:18:44] INFO: Database disconnected  
+[2025-10-21 15:19:26] INFO: Database connected successfully  
+[2025-10-21 15:20:03] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 15:20:03] INFO: Database disconnected  
+[2025-10-21 15:20:20] INFO: Database connected successfully  
 [2025-10-21 15:20:28] ERROR: Failed to send verification email  {
   "errno": -4078,
   "code": "ESOCKET",
@@ -62,6 +65,9 @@
   "ip": "::1",
   "statusCode": 500
 }
+[2025-10-21 15:22:13] INFO: Database connected successfully  
+[2025-10-21 15:22:51] INFO: Database connected successfully  
+[2025-10-21 15:22:54] INFO: Database connected successfully  
 [2025-10-21 15:23:20] ERROR: Failed to send verification email  {
   "errno": -4078,
   "code": "ESOCKET",
@@ -78,6 +84,9 @@
   "ip": "::1",
   "statusCode": 400
 }
+[2025-10-21 15:30:00] INFO: Running cancel unpaid bookings job  
+[2025-10-21 15:44:27] INFO: Database connected successfully  
+[2025-10-21 15:45:00] INFO: Running cancel unpaid bookings job  
 [2025-10-21 15:45:04] ERROR: Failed to send verification email  {
   "errno": -4078,
   "code": "ESOCKET",
@@ -94,6 +103,9 @@
   "ip": "::1",
   "statusCode": 500
 }
+[2025-10-21 15:45:54] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 15:45:54] INFO: Database disconnected  
+[2025-10-21 15:46:00] INFO: Database connected successfully  
 [2025-10-21 15:46:23] ERROR: Failed to send verification email  {
   "errno": -4078,
   "code": "ESOCKET",
@@ -110,6 +122,34 @@
   "ip": "::1",
   "statusCode": 500
 }
+[2025-10-21 15:47:11] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 15:47:11] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 15:47:11] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 15:47:11] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
 [2025-10-21 15:47:11] ERROR: ❌ Email service connection failed:  {
   "errno": -4078,
   "code": "ESOCKET",
@@ -146,6 +186,37 @@
   "command": "CONN"
 }
 [2025-10-21 15:47:11] ERROR: Please check your SMTP credentials in .env.development  
+[2025-10-21 15:47:11] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 15:47:12] INFO: Database connected successfully  
+[2025-10-21 15:47:12] INFO: Database disconnected  
+[2025-10-21 15:48:38] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 15:48:38] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 15:48:38] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 15:48:38] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
 [2025-10-21 15:48:39] ERROR: ❌ Email service connection failed:  {
   "errno": -4078,
   "code": "ESOCKET",
@@ -182,11 +253,70 @@
   "command": "CONN"
 }
 [2025-10-21 15:48:39] ERROR: Please check your SMTP credentials in .env.development  
+[2025-10-21 15:48:40] INFO: Database connected successfully  
+[2025-10-21 15:49:44] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 15:49:44] INFO: Database disconnected  
+[2025-10-21 15:49:53] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 15:49:53] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 15:49:53] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 15:49:53] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
 [2025-10-21 15:49:53] ERROR: Database connection failed  {
   "clientVersion": "6.17.1",
   "errorCode": "P1012",
   "name": "PrismaClientInitializationError"
 }
+[2025-10-21 15:55:05] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 15:55:05] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 15:55:05] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 15:55:05] INFO: Email Service Configuration:  {
+  "host": "",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
 [2025-10-21 15:55:05] ERROR: ❌ Email service connection failed:  {
   "errno": -4078,
   "code": "ESOCKET",
@@ -223,6 +353,38 @@
   "command": "CONN"
 }
 [2025-10-21 15:55:05] ERROR: Please check your SMTP credentials in .env.development  
+[2025-10-21 15:55:06] INFO: Database connected successfully  
+[2025-10-21 15:58:34] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 15:58:34] INFO: Database disconnected  
+[2025-10-21 16:00:43] INFO: Email Service Configuration:  {
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 16:00:43] INFO: Email Service Configuration:  {
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 16:00:43] INFO: Email Service Configuration:  {
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 16:00:43] INFO: Email Service Configuration:  {
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 16:00:44] INFO: Database connected successfully  
 [2025-10-21 16:00:45] ERROR: ❌ Email service connection failed:  {
   "code": "EAUTH",
   "command": "API"
@@ -243,6 +405,37 @@
   "command": "API"
 }
 [2025-10-21 16:00:45] ERROR: Please check your SMTP credentials in .env.development  
+[2025-10-21 16:02:09] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 16:02:09] INFO: Database disconnected  
+[2025-10-21 16:04:52] INFO: Email Service Configuration:  {
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 16:04:52] INFO: Email Service Configuration:  {
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 16:04:52] INFO: Email Service Configuration:  {
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 16:04:52] INFO: Email Service Configuration:  {
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 16:04:53] INFO: Database connected successfully  
 [2025-10-21 16:04:54] ERROR: ❌ Email service connection failed:  {
   "code": "EAUTH",
   "command": "API"
@@ -263,6 +456,22 @@
   "command": "CONN"
 }
 [2025-10-21 16:05:10] ERROR: Please check your SMTP credentials in .env.development  
+[2025-10-21 16:08:47] INFO: Email Service Configuration:  {
+  "from": "StayInn <twiceoncess2015@gmail.com>",
+  "secure": false
+}
+[2025-10-21 16:08:47] INFO: Email Service Configuration:  {
+  "from": "StayInn <twiceoncess2015@gmail.com>",
+  "secure": false
+}
+[2025-10-21 16:08:47] INFO: Email Service Configuration:  {
+  "from": "StayInn <twiceoncess2015@gmail.com>",
+  "secure": false
+}
+[2025-10-21 16:08:47] INFO: Email Service Configuration:  {
+  "from": "StayInn <twiceoncess2015@gmail.com>",
+  "secure": false
+}
 [2025-10-21 16:08:47] ERROR: ❌ Email service connection failed:  {
   "errno": -4078,
   "code": "ESOCKET",
@@ -299,6 +508,23 @@
   "command": "CONN"
 }
 [2025-10-21 16:08:47] ERROR: Please check your SMTP credentials in .env.development  
+[2025-10-21 16:08:47] INFO: Database connected successfully  
+[2025-10-21 16:09:46] INFO: Email Service Configuration:  {
+  "from": "StayInn <twiceoncess2015@gmail.com>",
+  "secure": false
+}
+[2025-10-21 16:09:46] INFO: Email Service Configuration:  {
+  "from": "StayInn <twiceoncess2015@gmail.com>",
+  "secure": false
+}
+[2025-10-21 16:09:46] INFO: Email Service Configuration:  {
+  "from": "StayInn <twiceoncess2015@gmail.com>",
+  "secure": false
+}
+[2025-10-21 16:09:46] INFO: Email Service Configuration:  {
+  "from": "StayInn <twiceoncess2015@gmail.com>",
+  "secure": false
+}
 [2025-10-21 16:09:47] ERROR: ❌ Email service connection failed:  {
   "errno": -4078,
   "code": "ESOCKET",
@@ -335,6 +561,36 @@
   "command": "CONN"
 }
 [2025-10-21 16:09:47] ERROR: Please check your SMTP credentials in .env.development  
+[2025-10-21 16:09:47] INFO: Database connected successfully  
+[2025-10-21 16:09:51] INFO: Email Service Configuration:  {
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 16:09:51] INFO: Email Service Configuration:  {
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 16:09:51] INFO: Email Service Configuration:  {
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 16:09:51] INFO: Email Service Configuration:  {
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "user": "",
+  "from": "ridhohanafi2000@gmail.com",
+  "secure": false
+}
+[2025-10-21 16:09:52] INFO: Database connected successfully  
 [2025-10-21 16:09:53] ERROR: ❌ Email service connection failed:  {
   "code": "EAUTH",
   "command": "API"
@@ -355,3 +611,8 @@
   "command": "API"
 }
 [2025-10-21 16:10:04] ERROR: Please check your SMTP credentials in .env.development  
+[2025-10-21 16:10:52] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 16:10:52] INFO: Database disconnected  
+[2025-10-21 16:13:23] INFO: Database connected successfully  
+[2025-10-21 16:13:37] INFO: SIGINT received, shutting down gracefully  
+[2025-10-21 16:13:37] INFO: Database disconnected  
